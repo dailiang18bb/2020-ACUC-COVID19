@@ -117,7 +117,7 @@ for index, row in complete_df.iterrows():
 			items = items + ' ' + translate_dict[header] + ': ' + str('{:,}'.format(int(v))) + ';'
 			summary_dict[translate_dict[header]] += v
 			#add to row
-		if v != 0 and header == '_15OtherInKindSuppliesOrDonationsInUS':
+		if v != 0 and header == '_15OtherInKindSuppliesOrDonationsInUS' and v != '0':
 			items = items + ' ' + str(v) + ';'
 	third_row = ''
 	if items != '':
@@ -202,6 +202,7 @@ print('Word file generate successful!')
 
 # 0418 Update Notes:
 # 1. change [Surgical Mask] to [Medical Mask]
+# 2. ignore row['_15OtherInKindSuppliesOrDonationsInUS'] '0' item
 
 
 # Update Notes:
