@@ -1,8 +1,28 @@
 # 2020-ACUC-NYCCC
 Donation data checker and generator
 
+## About ACUC
+The American Chinese United Care Alliance (ACUC) is a newly launched donation campaign to fight against **COVID-19**. It is operated by 50+ volunteers cross New York. 
 
-### Python Scripts Description
+We have raised more than **5 million dollars** in cash or in-kind PPE donations from **157 Chinese American communities and organizations** since March.
+
+I'm so glad that I can be part of this action, to be one of the matches within the torch.
+
+
+Instagram[@acuc.alliance](https://www.instagram.com/acuc.alliance/)  
+Facebook[@ACUC.2020](https://www.facebook.com/ACUC.2020/)  
+Twitter[@ACUC.2020](https://twitter.com/ACUC_Alliance)  
+
+
+## My Volunteer Job
+I worked in the Finance Team and Data Verification Team, responsible for issue invoices and data automation.
+* Maintained and tracked donors' donation record with a spreadsheet
+* Generated, tracked, issued the Invoices.
+* Wrote Python script to check the datasheet error.
+* Wrote Python script to generated Donation Summary Word and Excel files.
+
+
+## Python Scripts Description
 * `Auto.py`Generate ACUC Donation Summary 
 * `AutoEnglish.py`Generate English ACUC Donation Summary 
 * `OrgName.py` Generate ACUC Donation Orgnizations name list 
@@ -14,9 +34,6 @@ Donation data checker and generator
 * `readExcel.py` Testing read Excel file
 
 
-
-
-
-### Dependencies 
+## Dependencies 
 Run `pip install -r requirements.txt`
 
