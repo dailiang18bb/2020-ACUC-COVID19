@@ -1,5 +1,5 @@
 lxml==4.5.0
-numpy==1.18.2
+numpy==1.22.0
 opc-diag==1.0.0
 pandas==1.0.3
 pyspellchecker==0.5.4
